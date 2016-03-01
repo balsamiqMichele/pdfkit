@@ -13,7 +13,8 @@ module.exports =
     @_registeredFonts = {}
     
     # Set the default font
-    @font 'Helvetica'
+    # @font 'Helvetica'
+    return
     
   font: (src, family, size) ->
     if typeof family is 'number'
